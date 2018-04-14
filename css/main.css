@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'introrustg';
+  src: url('../fonts/introrust/introrustg-baseline2.woff') format('opentype');
+}
+
+
+body {
+  width: 1366px;
+  height: 1800px;
+}
+
+
+
+header {
+  background-size: cover;
+  background-image: url("../img/snow-mountains.jpg");
+  height: 768px;
+  width: 1366px:
+}
+
+#header-top {
+  border: purple 2px solid;
+}
+
+header h1 {
+  color: #5b5b5c;
+  font-family: 'introrustg';
+  font-weight: 200;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+  border: red 2px solid;
+  width: 900px;
+}
+
+header h2 {
+  color: darkblue;
+  font-family: 'introrustg';
+  font-weight: 200;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+  border: red 2px solid;
+  width: 900px;
+}
+
+
+
+#dw {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  border: red 2px solid;
+
+}
+
+
+#nav {
+  border: red 2px solid;
+  width: 100%;
+  margin-top: 500px;
+  height: 40px;
+  text-align: center;
+}
+
+#nav h5 {
+  margin: auto;
+  font-size: 30px;
+  border: 2px darkgray solid;
+  border-radius: 25px;
+  width: 350px;
+  background: black;
+  color: darkgray;
+  text-decoration: none;
+}
+
+#nav h5 a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+
+#middle {
+  height: 175px;
+  border: 2px green solid;
+}
+
+#bottom {
+  height: 900px;
+}
